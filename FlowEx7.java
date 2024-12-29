@@ -8,8 +8,8 @@ public class FlowEx7 {
         int user = scanner.nextInt(); // 화면을 통해 입력받은 숫자를 user에 저장
         int com = (int)(Math.random() * 3)+1; // 1,2,3 중 하나가 com에 저장
 
-        System.out.println("당신은" +user+ "입니다.");
-        System.out.println("AI는" +com+ "입니다.");
+        System.out.println("당신은 " +user+ " 입니다.");
+        System.out.println("AI는 " +com+ " 입니다.");
 
         switch (user-com) {
             case 2: case -1:
