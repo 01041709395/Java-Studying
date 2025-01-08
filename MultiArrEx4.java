@@ -2,7 +2,7 @@ import java.util.*;
 
 public class MultiArrEx4 {
     public static void main(String[] args) {
-        String[][] words = { 
+        String[][] words = {
                 {"chair","의자"},
                 {"computer","컴퓨터"},
                 {"integer","정수"}
